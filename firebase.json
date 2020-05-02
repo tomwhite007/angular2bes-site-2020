@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "public": "dist\\angular2bes",
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+<ul>
+  <li *ngFor="let route of routes; let i = index">
+    <a [routerLink]="[route]" (click)="itemClick()">{{ titles[i] }}</a>
+  </li>
+</ul>

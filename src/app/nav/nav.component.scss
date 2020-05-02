@@ -1,0 +1,29 @@
+.navbar {
+  max-width: 100%;
+}
+
+.collapse.show {
+  margin-top: 10px;
+}
+
+.collapse.show .dropdown {
+  margin-bottom: 10px;
+
+  li {
+    margin: 7px 0;
+  }
+}
+
+.nav-shim {
+  height: 56px;
+}
+
+.dropdown {
+  padding-right: 8px;
+}
+
+.drop-down-overlay {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}

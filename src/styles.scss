@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+
+html,
+body {
+  font-size: 1em;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+  letter-spacing: -0.04em;
+  margin: 1em 0 0.5em 0;
+}
+
+a {
+  word-wrap: break-word;
+}
+
+p {
+  margin: 0.5em 0;
+}
+
+header {
+  padding: 154px 0 100px;
+}
+
+app-meetup-view section:nth-child(odd) {
+  background-color: #eef0f6;
+}
+app-about section {
+  background-color: #d3dcf8;
+}
+app-contact section:nth-child(odd) {
+  background-color: #f8f9fa;
+}
+section {
+  padding: 150px 0;
+}
+
+markdown {
+  a {
+    font-weight: 600;
+    color: #709425;
+    -webkit-text-decoration: underline;
+    text-decoration: underline;
+  }
+
+  code {
+    font-family: Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace;
+    font-size: 1em;
+    background: #ecebea;
+    text-shadow: none;
+    color: inherit;
+    padding: 0.1em 0.3em 0.2em;
+    border-radius: 0.3em;
+    white-space: normal;
+    text-align: left;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+  }
+}
