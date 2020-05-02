@@ -78,7 +78,7 @@ export class ScrollViewContainerComponent
   private scrollToSection(section: string) {
     const config: ScrollToConfigOptions = {
       target: section,
-      offset: -100,
+      offset: 50,
     };
 
     console.log(section);
