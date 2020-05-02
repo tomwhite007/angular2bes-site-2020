@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
-import { MenuViewComponent } from './menu-view/menu-view.component';
+import { MenuViewComponent } from './nav/menu-view/menu-view.component';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { MarkdownModule } from 'ngx-markdown';
 import { FooterComponent } from './footer/footer.component';

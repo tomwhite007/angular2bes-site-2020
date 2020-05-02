@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  rootMarkdownUrl:
+    'https://raw.githubusercontent.com/tomwhite007/angular2bes-site-2020/master/src/assets/markdown/',
 };
 
 /*

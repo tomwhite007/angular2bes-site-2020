@@ -18,6 +18,7 @@ import {
 export class ScrollViewContainerComponent
   implements OnInit, OnDestroy, AfterViewInit {
   meetups: MeetupLink[] = [];
+  showMeetups = true;
 
   constructor(
     private route: ActivatedRoute,
@@ -42,6 +43,13 @@ export class ScrollViewContainerComponent
           this.initParamListener();
         }, 500);
       });
+
+    this.meetupsService.refresh$.pipe(untilDestroyed(this)).subscribe(() => {
+      this.showMeetups = false;
+      setTimeout(() => {
+        this.showMeetups = true;
+      }, 500);
+    });
   }
 
   private initParamListener() {

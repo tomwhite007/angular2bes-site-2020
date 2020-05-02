@@ -1,20 +1,26 @@
 import { Injectable } from '@angular/core';
-import { BehaviorSubject } from 'rxjs';
+import { BehaviorSubject, Subject } from 'rxjs';
 import { MeetupLink } from '../interfaces/meetup-link.interface';
+import { environment } from 'src/environments/environment';
 
 @Injectable({
   providedIn: 'root',
 })
 export class MeetupsService {
   meetups$: BehaviorSubject<MeetupLink[]> = new BehaviorSubject([]);
+  refresh$: Subject<void> = new Subject();
 
   constructor() {}
 
   updateMeetups(routes: string[]) {
     const meetups: MeetupLink[] = routes.map((r) => ({
-      src: `/assets/markdown/meetups/${r}.md`,
+      src: `${environment.rootMarkdownUrl}meetups/${r}.md`,
       id: r.replace('/', ''),
     }));
     this.meetups$.next(meetups);
+  }
+
+  refreshMeetups() {
+    this.refresh$.next();
   }
 }

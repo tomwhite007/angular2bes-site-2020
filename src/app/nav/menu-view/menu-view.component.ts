@@ -1,6 +1,7 @@
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { MarkdownService } from 'ngx-markdown';
-import { MeetupsService } from '../shared/services/meetups.service';
+import { MeetupsService } from '../../shared/services/meetups.service';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-menu-view',
@@ -18,7 +19,7 @@ export class MenuViewComponent implements OnInit {
 
   ngOnInit(): void {
     this.markdownService
-      .getSource('./assets/markdown/menu.md')
+      .getSource(`${environment.rootMarkdownUrl}menu.md`)
       .subscribe((res) => {
         const titlesBracketed = res.match(/\[.*\]/g);
         this.titles = titlesBracketed.map((t) => t.replace(/\[|\]/g, ''));

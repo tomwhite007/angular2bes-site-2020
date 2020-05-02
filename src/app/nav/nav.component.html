@@ -64,6 +64,11 @@
             >Contact</a
           >
         </li>
+        <li class="nav-item" *ngIf="showRefreshMarkdownLink">
+          <span class="nav-link refresh-markdown" (click)="refreshMeetups()"
+            >Refresh markdown</span
+          >
+        </li>
       </ul>
     </div>
   </div>

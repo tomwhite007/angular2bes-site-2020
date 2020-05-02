@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { MeetupsService } from '../shared/services/meetups.service';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-nav',
@@ -8,13 +10,15 @@ import { Component, OnInit } from '@angular/core';
 export class NavComponent implements OnInit {
   showMenu = false;
   burgerExpanded = false;
+  showRefreshMarkdownLink = !environment.production;
 
-  constructor() {}
+  constructor(private meetupsService: MeetupsService) {}
 
   ngOnInit(): void {}
 
   showHideDropDown(open: boolean) {
     this.showMenu = open;
+    this.burgerExpanded = open;
   }
 
   expandBurger() {
@@ -24,5 +28,10 @@ export class NavComponent implements OnInit {
   overlayClicked() {
     this.showHideDropDown(false);
     this.burgerExpanded = false;
+  }
+
+  refreshMeetups() {
+    this.meetupsService.refreshMeetups();
+    this.showHideDropDown(false);
   }
 }
