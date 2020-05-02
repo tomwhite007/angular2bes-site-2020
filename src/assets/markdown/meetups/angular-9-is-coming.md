@@ -1,4 +1,4 @@
-# Angular 9 is coming to town!
+# Angular 9 is coming to town
 
 ## Meetup December 18, 2019
 
