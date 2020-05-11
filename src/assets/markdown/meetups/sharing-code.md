@@ -23,8 +23,8 @@ Here is the [video of the meetup](https://youtu.be/PLGnU2em7GI)
 https://www.meetup.com/en-AU/Angular-Belgium/events/270458349/ 
 
 #### Other points discussed
-React intro https://fullstackopen.com/en 
-Wes Bos also does a great React course
-https://fullstackopen.com/en/#course-contents 
+- React intro https://fullstackopen.com/en 
+- Wes Bos also does a great React course
+- https://fullstackopen.com/en/#course-contents 
  
 nrwl nx: https://github.com/nrwl/nx 
