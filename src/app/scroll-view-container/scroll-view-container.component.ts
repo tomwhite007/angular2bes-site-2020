@@ -58,6 +58,8 @@ export class ScrollViewContainerComponent
         return;
       }
 
+      this.gtm(params.id);
+
       switch (params.id) {
         case 'home':
         case 'about':
@@ -73,6 +75,14 @@ export class ScrollViewContainerComponent
           }
       }
     });
+  }
+
+  private gtm(page: string) {
+    const data = {
+      event: 'app.pageview',
+      pagename: page,
+    };
+    (window as any).dataLayer.push(data);
   }
 
   private scrollToSection(section: string) {
