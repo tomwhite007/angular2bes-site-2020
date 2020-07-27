@@ -13,8 +13,9 @@ export class MeetupsService {
   constructor() {}
 
   updateMeetups(routes: string[]) {
+    const uniqueNum = new Date().getTime();
     const meetups: MeetupLink[] = routes.map((r) => ({
-      src: `${environment.rootMarkdownUrl}meetups/${r}.md`,
+      src: `${environment.rootMarkdownUrl}meetups/${r}.md?cb=${uniqueNum}`,
       id: r.replace('/', ''),
     }));
     this.meetups$.next(meetups);
