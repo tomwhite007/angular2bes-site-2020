@@ -1,3 +1,4 @@
+- [2020 July 29 - NgRx Entities & View Model Pattern](ngrx-entities-and-view-model)
 - [2020 March 06 - Shared Code Solutions - Evaluation](sharing-code)
 - [2020 February 26 - D3 and building RxJS operators](d3-and-rxjs-operators)
 - [2019 December 18 - Angular 9 is coming to town](angular-9-is-coming)

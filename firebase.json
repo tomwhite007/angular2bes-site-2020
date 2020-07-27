@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist\\angular2bes",
+    "public": "./dist/angular2bes",
     "rewrites": [
       {
         "source": "**",
