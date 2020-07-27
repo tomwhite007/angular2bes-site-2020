@@ -27,7 +27,7 @@ Better than arrays!
 A quick study (2-3hrs):
 [Angular University: Angular NgRx Entity - Complete Practical Guide](blog.angular-university.io/ngrx-entity)
 
-#### An example Record Interface
+**An example Record Interface**
 
 ```javascript
 interface Book {
@@ -36,7 +36,7 @@ interface Book {
 }
 ```
 
-#### Example Entity State
+**Example Entity State**
 
 based on the Book record interface
 
