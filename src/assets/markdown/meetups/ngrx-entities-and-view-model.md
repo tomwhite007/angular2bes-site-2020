@@ -73,5 +73,4 @@ A demo or two:
 - [https://github.com/tomwhite007/scaffolding-ngrx-with-nx-schematics](https://github.com/tomwhite007/scaffolding-ngrx-with-nx-schematics)
 - [https://github.com/tomwhite007/scaffolding-with-ngrx-schematics](https://github.com/tomwhite007/scaffolding-with-ngrx-schematics)
 
-Screenshots of how to scaffold NgRx with Nx
-[Scaffolding_NgRx_with_Nx.pdf](/assets/content/Scaffolding_NgRx_with_Nx.pdf)
+Screenshots of how to scaffold NgRx with Nx: [Scaffolding_NgRx_with_Nx.pdf](/assets/content/Scaffolding_NgRx_with_Nx.pdf)
