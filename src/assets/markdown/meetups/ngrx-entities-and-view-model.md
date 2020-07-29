@@ -11,7 +11,7 @@
 - NgRx Entities and scaffolding the most efficient way ([see below](#ngrx-entities))
 - Post-lockdown Angular jobs and contract market, and how we can help
 - [Angular standards for 2020](https://medium.com/p/angular-standards-for-2020-d31f401fb90d?source=email-9ee788b6810c--writer.postDistributed&sk=6edc2777791efd12f09d3d67f0a447dd)
-- WithNextFrom, Tom’s new RxJS operator for Angular devs, [hosted on npm.](https://www.npmjs.com/package/@gyrus/ngx-with-next-from). Based on [withLatestFrom](https://rxjs-dev.firebaseapp.com/api/operators/withLatestFrom).
+- WithNextFrom, Tom’s new RxJS operator for Angular devs, [hosted on npm](https://www.npmjs.com/package/@gyrus/ngx-with-next-from). Based on [withLatestFrom](https://rxjs-dev.firebaseapp.com/api/operators/withLatestFrom).
 
 ### NgRx Entities
 
