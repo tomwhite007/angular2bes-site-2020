@@ -4,6 +4,8 @@
 
 ### Speaker: Tom White
 
+### [Link to video of the whole meetup here](https://youtu.be/7fAKl7JBg6g)
+
 ## NgRx Entities
 
 Better than arrays!
