@@ -1,0 +1,33 @@
+{
+  "npmScope": "angular2bes-site-2020",
+  "affected": {
+    "defaultBase": "master"
+  },
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.base.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nrwl/workspace/tasks-runners/default",
+      "options": {
+        "cacheableOperations": ["build", "lint", "test", "e2e"]
+      }
+    }
+  },
+  "projects": {
+    "angular2bes": {
+      "tags": ["scope:angular2bes", "type:app"]
+    },
+    "angular2bes-e2e": {
+      "tags": [],
+      "implicitDependencies": ["angular2bes"]
+    }
+  }
+}

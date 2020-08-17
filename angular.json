@@ -1,0 +1,188 @@
+{
+  "version": 1,
+  "projects": {
+    "angular2bes": {
+      "projectType": "application",
+      "schematics": {
+        "@nrwl/angular:component": {
+          "style": "scss"
+        }
+      },
+      "root": "apps/angular2bes",
+      "sourceRoot": "apps/angular2bes/src",
+      "prefix": "app",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist/apps/angular2bes",
+            "index": "apps/angular2bes/src/index.html",
+            "main": "apps/angular2bes/src/main.ts",
+            "polyfills": "apps/angular2bes/src/polyfills.ts",
+            "tsConfig": "apps/angular2bes/tsconfig.app.json",
+            "aot": true,
+            "assets": [
+              "apps/angular2bes/src/favicon.ico",
+              "apps/angular2bes/src/assets"
+            ],
+            "styles": [
+              "apps/angular2bes/src/styles.scss",
+              "node_modules/prismjs/themes/prism-okaidia.css",
+              "node_modules/prismjs/plugins/line-highlight/prism-line-highlight.css"
+            ],
+            "scripts": [
+              "node_modules/prismjs/prism.js",
+              "node_modules/prismjs/components/prism-csharp.min.js",
+              "node_modules/prismjs/components/prism-css.min.js",
+              "node_modules/prismjs/plugins/line-highlight/prism-line-highlight.js"
+            ]
+          },
+          "configurations": {
+            "production": {
+              "fileReplacements": [
+                {
+                  "replace": "apps/angular2bes/src/environments/environment.ts",
+                  "with": "apps/angular2bes/src/environments/environment.prod.ts"
+                }
+              ],
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true,
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "2mb",
+                  "maximumError": "5mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "6kb",
+                  "maximumError": "10kb"
+                }
+              ]
+            }
+          }
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "angular2bes:build"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "angular2bes:build:production"
+            }
+          }
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "angular2bes:build"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "apps/angular2bes/tsconfig.app.json",
+              "apps/angular2bes/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!apps/angular2bes/**/*"]
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "apps/angular2bes/src/test.ts",
+            "tsConfig": "apps/angular2bes/tsconfig.spec.json",
+            "karmaConfig": "apps/angular2bes/karma.conf.js",
+            "polyfills": "apps/angular2bes/src/polyfills.ts",
+            "styles": [],
+            "scripts": [],
+            "assets": []
+          }
+        }
+      }
+    },
+    "angular2bes-e2e": {
+      "root": "apps/angular2bes-e2e",
+      "sourceRoot": "apps/angular2bes-e2e/src",
+      "projectType": "application",
+      "architect": {
+        "e2e": {
+          "builder": "@nrwl/cypress:cypress",
+          "options": {
+            "cypressConfig": "apps/angular2bes-e2e/cypress.json",
+            "tsConfig": "apps/angular2bes-e2e/tsconfig.e2e.json",
+            "devServerTarget": "angular2bes:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "angular2bes:serve:production"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": ["apps/angular2bes-e2e/tsconfig.e2e.json"],
+            "exclude": ["**/node_modules/**", "!apps/angular2bes-e2e/**/*"]
+          }
+        }
+      }
+    }
+  },
+  "cli": {
+    "defaultCollection": "@nrwl/angular",
+    "analytics": "061ac774-156c-427e-be4f-87248b0cadfe"
+  },
+  "schematics": {
+    "@nrwl/workspace": {
+      "library": {
+        "linter": "tslint"
+      }
+    },
+    "@nrwl/cypress": {
+      "cypress-project": {
+        "linter": "tslint"
+      }
+    },
+    "@nrwl/node": {
+      "application": {
+        "linter": "tslint"
+      },
+      "library": {
+        "linter": "tslint"
+      }
+    },
+    "@nrwl/nest": {
+      "application": {
+        "linter": "tslint"
+      },
+      "library": {
+        "linter": "tslint"
+      }
+    },
+    "@nrwl/express": {
+      "application": {
+        "linter": "tslint"
+      },
+      "library": {
+        "linter": "tslint"
+      }
+    },
+    "@nrwl/angular:application": {
+      "unitTestRunner": "karma",
+      "e2eTestRunner": "cypress"
+    },
+    "@nrwl/angular:library": {
+      "unitTestRunner": "karma"
+    }
+  },
+  "defaultProject": "angular2bes"
+}

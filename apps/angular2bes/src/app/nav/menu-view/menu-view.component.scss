@@ -1,0 +1,37 @@
+ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+li {
+  display: block;
+  width: 100%;
+  padding: 0.25rem 1.5rem;
+  clear: both;
+  font-weight: 400;
+  color: #212529;
+  text-align: inherit;
+  white-space: nowrap;
+  background: 0 0;
+  border: 0;
+}
+
+li:focus,
+li:hover {
+  color: #16181b;
+  text-decoration: none;
+  background-color: #f8f9fa;
+}
+
+li.active,
+.dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #007bff;
+}
+
+a {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}

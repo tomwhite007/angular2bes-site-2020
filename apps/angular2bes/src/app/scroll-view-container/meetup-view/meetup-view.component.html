@@ -1,0 +1,7 @@
+<section class="article" *ngFor="let meetup of meetups" [id]="meetup.id">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto" markdown [src]="meetup.src"></div>
+    </div>
+  </div>
+</section>
