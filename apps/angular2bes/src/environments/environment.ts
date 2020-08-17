@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   rootMarkdownUrl:
-    'https://raw.githubusercontent.com/tomwhite007/angular2bes-site-2020/master/src/assets/markdown/',
+    'https://raw.githubusercontent.com/tomwhite007/angular2bes-site-2020/master/apps/angular2bes/src/assets/markdown/',
 };
 
 /*
