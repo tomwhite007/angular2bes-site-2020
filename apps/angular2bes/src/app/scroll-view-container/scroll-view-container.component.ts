@@ -75,12 +75,6 @@ export class ScrollViewContainerComponent
             this.location.back();
           }
       }
-
-      setTimeout(() => {
-        console.log('test', params.id);
-        const test = document.getElementById(params.id);
-        console.log(test.scrollHeight, test.scrollTop);
-      }, 5000);
     });
   }
 
