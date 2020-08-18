@@ -1,5 +1,3 @@
-import { getGreeting } from '../support/app.po';
-
 describe('deep linking to a page / section', () => {
   beforeEach(() => cy.visit('/testing-observables'));
 
