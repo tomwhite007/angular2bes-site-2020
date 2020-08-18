@@ -1,7 +1,7 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { MeetupLink } from '../../shared/interfaces/meetup-link.interface';
-import { MeetupsService } from '../../shared/services/meetups.service';
+import { MeetupLink } from '../../_shared/interfaces/meetup-link.interface';
+import { MeetupsService } from '../../_shared/services/meetups.service';
 
 @UntilDestroy()
 @Component({

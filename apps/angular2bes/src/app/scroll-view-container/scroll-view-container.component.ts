@@ -1,8 +1,8 @@
 import { Component, OnInit, OnDestroy, AfterViewInit } from '@angular/core';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { MeetupLink } from '../shared/interfaces/meetup-link.interface';
+import { MeetupLink } from '../_shared/interfaces/meetup-link.interface';
 import { ActivatedRoute } from '@angular/router';
-import { MeetupsService } from '../shared/services/meetups.service';
+import { MeetupsService } from '../_shared/services/meetups.service';
 import { Location } from '@angular/common';
 import { filter } from 'rxjs/operators';
 import {
@@ -75,6 +75,12 @@ export class ScrollViewContainerComponent
             this.location.back();
           }
       }
+
+      setTimeout(() => {
+        console.log('test', params.id);
+        const test = document.getElementById(params.id);
+        console.log(test.scrollHeight, test.scrollTop);
+      }, 5000);
     });
   }
 

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MeetupsService } from '../shared/services/meetups.service';
+import { MeetupsService } from '../_shared/services/meetups.service';
 import { environment } from '../../environments/environment';
 
 @Component({
