@@ -13,5 +13,15 @@ export function mockMarkdownDocsRequests() {
     'GET',
     `${rootDocumentFolderUrl}/meetups/sharing-code.md?cb=**`,
     'fx:pages/sharing-code.md'
-  );
+  ).as('second-page-request');
+}
+
+export function confirmSectionIsScrolledInView(sectionId: string) {
+  cy.window().then(($window) => {
+    cy.get(sectionId).then(($sectionContainer) => {
+      const topOfContainer = $sectionContainer.offset().top;
+
+      expect($window.scrollY).to.be.closeTo(topOfContainer, 100);
+    });
+  });
 }
