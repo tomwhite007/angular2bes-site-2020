@@ -1,3 +1,4 @@
+- [2020 September 9 - Testing with Cypress & The View Model design](cypress-and-view-model-design)
 - [2020 July 29 - NgRx Entities & View Model Pattern](ngrx-entities-and-view-model)
 - [2020 March 06 - Shared Code Solutions - Evaluation](sharing-code)
 - [2020 February 26 - D3 and building RxJS operators](d3-and-rxjs-operators)
