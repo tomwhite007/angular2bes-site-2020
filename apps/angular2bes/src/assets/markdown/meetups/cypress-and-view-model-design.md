@@ -1,6 +1,6 @@
 # Testing with Cypress & the Reactive & Performant "View Model" design
 
-## Meetup December 18, 2019
+## Meetup September 09, 2020
 
 ### Speakers: Tom White & Max Mumford
 
