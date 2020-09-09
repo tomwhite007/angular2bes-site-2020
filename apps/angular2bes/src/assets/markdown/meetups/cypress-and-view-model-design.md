@@ -30,6 +30,8 @@ Generate an app paired with a Cypress e2e project inside a workspace configured 
 ng generate application myApp --e2e-test-runner=cypress
 ```
 
+<p>&nbsp;</p>
+
 ### Simplifying Component State and Improving Performance
 
 How to leverage the View Model pattern and OnPush change detection in Angular
