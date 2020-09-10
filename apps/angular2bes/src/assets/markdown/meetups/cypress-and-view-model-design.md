@@ -6,7 +6,7 @@
 
 <p>&nbsp;</p>
 
-**_More notes will appear here after the meetup_**
+Here's a Link to the [YouTube video](https://www.youtube.com/watch?v=JdKkw3hlR6Y) of this meetup
 
 ### Integration testing with Cypress
 
@@ -29,6 +29,17 @@ Generate an app paired with a Cypress e2e project inside a workspace configured 
 ```
 ng generate application myApp --e2e-test-runner=cypress
 ```
+
+<p>&nbsp;</p>
+
+_Gotchas_
+
+- [Page errors](https://github.com/cypress-io/cypress/issues/7915#issuecomment-655743195) stop tests passing
+- `wait(route alias)` creates less issues than `wait(time)`
+- Macs [can’t run tests on Electron](https://crbug.com/882238) when they’re complex
+- Cypress is supposed to wait until a page hydrates, but sometimes Angular dom composition delays can cause a problem and you need to use `wait(time)`. Just use sparingly.
+
+Demo app: https://github.com/tomwhite007/angular2bes-site-2020
 
 <p>&nbsp;</p>
 
