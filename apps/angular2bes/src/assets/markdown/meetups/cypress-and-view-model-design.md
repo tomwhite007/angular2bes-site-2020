@@ -48,3 +48,5 @@ Demo app: https://github.com/tomwhite007/angular2bes-site-2020
 How to leverage the View Model pattern and OnPush change detection in Angular
 
 [Link to view Slide Deck](https://docs.google.com/presentation/d/19yaH2MkoLnpHNj6pzhrc5HuvseIRh1D4DXblOP_HQuI/edit?usp=sharing)
+
+Demo app: https://github.com/maxmumford/view-model-angular
