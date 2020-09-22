@@ -56,7 +56,7 @@ Demo app: https://github.com/maxmumford/view-model-angular
 _Inside the Component_
 
 ```Javascript
-vm$: Observable<VM>; // where VM is an object containing all your page data
+vm$: Observable<VM>; // where VM is an object containing all your data to display in the template
 ```
 
 _Inside the Template_
