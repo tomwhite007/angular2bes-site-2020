@@ -43,7 +43,7 @@ Demo app: https://github.com/tomwhite007/angular2bes-site-2020
 
 <p>&nbsp;</p>
 
-### Simplifying Component State and Improving Performance
+### The View Model pattern: Simplifying Component State and Improving Performance
 
 How to leverage the View Model pattern and OnPush change detection in Angular
 
