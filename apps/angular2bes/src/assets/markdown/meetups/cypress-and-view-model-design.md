@@ -50,3 +50,21 @@ How to leverage the View Model pattern and OnPush change detection in Angular
 [Link to view Slide Deck](https://docs.google.com/presentation/d/19yaH2MkoLnpHNj6pzhrc5HuvseIRh1D4DXblOP_HQuI/edit?usp=sharing)
 
 Demo app: https://github.com/maxmumford/view-model-angular
+
+#### Summary of the View Model pattern
+
+_Inside the Component_
+
+```Javascript
+vm$: Observable<VM>; // where VM is an object containing all your page data
+```
+
+_Inside the Template_
+
+```Javascript
+<ng-container *ngIf="vm$ | async as vm">
+... rest of the template markup ...
+</ng-container>
+```
+
+Using this pattern means even your top-most 'smart' container components can take advantage of OnPush change detection without you needing to worry about calling manually to `ChangeDetectorRef` `detectChanges()`
