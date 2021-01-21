@@ -1,3 +1,4 @@
+- [2021 January 20 - You Don't Know Stack](you-dont-know-stack)
 - [2020 December 2 - Micro-frontends & NgRx Component Store](micro-frontends-component-store)
 - [2020 October 9 - Dynamic Angular Architecture](dynamic-angular-architecture)
 - [2020 September 9 - Testing with Cypress & The View Model design](cypress-and-view-model-design)
