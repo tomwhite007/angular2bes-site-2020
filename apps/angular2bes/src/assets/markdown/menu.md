@@ -1,3 +1,4 @@
+- [2021 Mar 17 - Component Based Architecture](component-based-architecture)
 - [2021 Feb 24 - Maintainable Code & forRoot Config](writing-maintainable-code)
 - [2021 Jan 20 - You Don't Know Stack](you-dont-know-stack)
 - [2020 De 02 - Micro-frontends & NgRx Component Store](micro-frontends-component-store)
