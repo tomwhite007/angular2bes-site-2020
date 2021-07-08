@@ -32,6 +32,8 @@ Topics and materials suggestions for the Study Plan from the chat:
 
 Here's a link to [Chris's repo](https://github.com/richgenres/style-your-app)
 
+Here's a link to [Chris's slide deck](/assets/how-to-style-your-app.pdf). It lists all the steps he recommends for his strategy to style and app.
+
 Comments from the chat:
 
 - Naming convention is everything
