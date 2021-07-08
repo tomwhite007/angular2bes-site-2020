@@ -32,7 +32,7 @@ Topics and materials suggestions for the Study Plan from the chat:
 
 Here's a link to [Chris's repo](https://github.com/richgenres/style-your-app)
 
-Here's a link to [Chris's slide deck](/assets/how-to-style-your-app.pdf). It lists all the steps he recommends for his strategy to style and app.
+Here's a link to [Chris's slide deck](https://github.com/tomwhite007/angular2bes-site-2020/raw/master/apps/angular2bes/src/assets/content/how-to-style-your-app.pdf). It lists all the steps he recommends for his strategy to style and app.
 
 Comments from the chat:
 
