@@ -18,7 +18,12 @@ This repo will be moving to Angular Nation's Github Group shortly.
 
 Here's a link to [Angular Nation](AngularNation.net). You can contact us to get an invite and come in.
 
+Topics and materials suggestions for the Study Plan from the chat:
 
+- There are free courses on Angular Nation (RxJs, Performance, CLI Schematics, and Reactive Forms)
+- Another good area to concentrate on would also be on http requests (api) As well as how to connect/install/develop with 3rd party libraries and CSS libraries
+- Deployment / serving via nginx or nodejs etc
+- Angular CLI
 
 
 <p>&nbsp;</p>
@@ -27,7 +32,12 @@ Here's a link to [Angular Nation](AngularNation.net). You can contact us to get 
 
 Here's a link to [Chris's repo](https://github.com/richgenres/style-your-app)
 
+Comments from the chat:
 
+- Naming convention is everything
+- What do you think about frameworks like tailwindcss and tachyons?
+- May I ask what you think about "CSS in ts" method? I follow a meetup some time ago, where the speaker used a library that helps (intellisense, etc...) and the main advantage was that this allows the developer to set values dynamically with ifs
+- Firefox is best css inspector
+- You can use `[ngClass.className]="condition"`
+- I think I'll need a session for that too someday, if Chris has time
 
-
-## ...More links and comments will appear here shortly
