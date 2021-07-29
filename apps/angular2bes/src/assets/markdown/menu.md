@@ -1,3 +1,4 @@
+- [2021 Jul 28 - Angular Projects 2nd Edition](angular-projects)
 - [2021 Jul 07 - Angular Study Plan & Style your App](study-and-style)
 - [2021 Mar 17 - Component Based Architecture](component-based-architecture)
 - [2021 Feb 24 - Maintainable Code & forRoot Config](writing-maintainable-code)
