@@ -2,7 +2,7 @@
 
 ## Meetup July 28, 2021
 
-### Speakers: Aristeidis Bampakos - Angular GDE
+### Speaker: Aristeidis Bampakos - Angular GDE
 
 <p>&nbsp;</p>
 
