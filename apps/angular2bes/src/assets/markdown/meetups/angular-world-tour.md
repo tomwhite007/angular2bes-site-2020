@@ -22,6 +22,6 @@ Deborah Karata: RxJS Terms, Tips and Techniques:
 
 Han Che raised a question about [how to handle race conditions via inputs using Observables](https://stackoverflow.com/questions/67356731/trigger-a-function-once-2-inputs-are-set-and-then-afterwards-if-either-of-the-va), and followed up with an [Angular issue](https://github.com/angular/angular/issues/5689) he previously raised.
 
-Tracy Lee -- A Quickstart Guide to Contributing to Open Source
+Tracy Lee: A Quickstart Guide to Contributing to Open Source
 
 [Tracy Lee's twitter](twitter.com/ladyleet)
