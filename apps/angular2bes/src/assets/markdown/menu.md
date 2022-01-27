@@ -1,3 +1,4 @@
+- [2022 Jan 26 - Do you refactor?](do-you-refactor)
 - [2021 Nov 10 - Angular World Tour: Angular Sussex](angular-world-tour)
 - [2021 Jul 28 - Angular Projects 2nd Edition](angular-projects)
 - [2021 Jul 07 - Angular Study Plan & Style your App](study-and-style)
