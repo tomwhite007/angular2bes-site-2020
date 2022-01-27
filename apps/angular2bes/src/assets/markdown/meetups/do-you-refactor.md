@@ -19,3 +19,9 @@ Here's a link to [Rob Ramirez's article on TDD and the benefits for refactoring,
 Danny Andersen: Here is a good article series on model view presenter pattern: https://dev.to/this-is-angular/model-view-presenter-with-angular-533h
 
 Danny Andersen: Deborah Kurata explains this pattern with vm\$ brilliantly here: https://www.youtube.com/watch?v=Z76QlSpYcck&ab_channel=ng-conf
+
+Armen Vardanyan: Some of the articles I mentioned...
+
+- https://indepth.dev/posts/1162/rxjs-in-angular-part-1
+- https://medium.com/angular-in-depth/rx-js-best-practices-6a3b095ffb04
+- https://indepth.dev/posts/1316/rxjs-in-angular-part-ii
